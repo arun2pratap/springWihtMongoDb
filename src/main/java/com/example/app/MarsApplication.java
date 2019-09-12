@@ -10,9 +10,9 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 @ComponentScan("com.example")
 @EntityScan("com.example")
 @EnableMongoRepositories("com.example")
-public class Application {
+public class MarsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(MarsApplication.class, args);
 	}
 }
